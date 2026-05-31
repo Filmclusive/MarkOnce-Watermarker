@@ -20,7 +20,7 @@ It is built for local use:
 ## How To Use
 
 1. Create a new project (or open an existing one).
-2. Import an image (PNG, JPG/JPEG, or WebP).
+2. Import an image (PNG, HEIC, JPG/JPEG, or WebP).
 3. Rotate/crop as needed.
 4. Choose a watermark template and tune opacity/rotation/size/spacing/color.
 5. Add safe zones to reduce watermark strength over sensitive areas (optional).
