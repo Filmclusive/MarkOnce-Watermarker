@@ -1,6 +1,6 @@
-# Local Watermarker
+# MarkOnce Watermarker
 
-Local Watermarker is a cross-platform desktop app for creating one-time-use watermarked copies of sensitive image documents.
+MarkOnce Watermarker is a cross-platform desktop app for creating one-time-use watermarked copies of sensitive image documents.
 
 It is built for local use:
 
