@@ -1,6 +1,6 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
-  "productName": "Local Watermarker",
+  "productName": "MarkOnce",
   "version": "0.1.0",
   "identifier": "app.localwatermarker.desktop",
   "build": {
@@ -12,7 +12,7 @@
   "app": {
     "windows": [
       {
-        "title": "Local Watermarker",
+        "title": "MarkOnce",
         "width": 1240,
         "height": 820,
         "minWidth": 980,
@@ -26,6 +26,13 @@
   "bundle": {
     "active": true,
     "targets": "all",
-    "icon": []
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico",
+      "icons/icon.png"
+    ]
   }
 }
