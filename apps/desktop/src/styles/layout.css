@@ -1,0 +1,133 @@
+.app-shell {
+  min-height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.72rem 1rem;
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid var(--line);
+}
+
+.topbar nav,
+.action-row,
+.button-grid,
+.modal-actions,
+.table-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.topbar nav button,
+.brand-button {
+  background: transparent;
+}
+
+.topbar button.active,
+.segmented button.active {
+  color: #ffffff;
+  background: var(--accent);
+}
+
+.brand-button,
+.project-name {
+  font-weight: 650;
+}
+
+.page {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.narrow-page {
+  max-width: 760px;
+}
+
+.hero-band,
+.content-section {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--panel);
+}
+
+.hero-band {
+  grid-template-columns: 1fr auto;
+  align-items: end;
+}
+
+.hero-band div:first-child {
+  display: grid;
+  gap: 0.55rem;
+  max-width: 760px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.section-header.tight {
+  margin-bottom: -0.25rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 0.75rem;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+  padding: 0.9rem;
+  text-align: left;
+  background: #f6f8f6;
+}
+
+.project-card-body,
+.compact-list,
+.settings-list,
+.control-group,
+.editor-header,
+.modal,
+.choice-group {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.project-card-body span:not(.project-name),
+.muted,
+.small-text {
+  color: var(--muted);
+}
+
+.small-text {
+  font-size: 0.8rem;
+}
+
+.document-icon {
+  display: grid;
+  width: 2.1rem;
+  height: 2.7rem;
+  place-items: center;
+  color: var(--accent-dark);
+  background: #dfe8e4;
+  border-radius: 4px;
+}
+
+.compact-row {
+  display: grid;
+  grid-template-columns: 1.2fr 1.2fr 1fr auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--line);
+}
